@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Menu des Nourritures</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="/Images/Logo.png" sizes="192x192">
+
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="/Css_files/Swiper.min.css">
+
+  <style>
+      
+      
+/* ------ General ------ */
+      
+    * {
+        font-family: serif;
+        box-sizing: border-box;
+        margin:0;
+        padding:0;
+      }
+    
+/* Delete ads from webhost */    
+    
+    a { display: none; }
+      
+      body {
+        height: 90vh; 
+        overflow: hidden;   
+        background: #eee;
+      }
+      
+      @media screen and (min-width:500px){
+          body{
+              height: 100vh;
+          }
+      }  
+      
+      
+
+      
+      
+      
+/* -------- Swiper -------- */
+      
+    .swiper-container {
+      width: 100%;
+      height: 100%;
+    }
+      
+      
+    .swiper-slide {
+      height: 30%;
+        border-radius: 15px;
+        font-size: 30px;
+        box-shadow: 2px 2px 5px black;
+        text-shadow: 2px 2px 5px ;
+        display: block;
+        color: white;
+        cursor:pointer;
+        border: 1px solid white;
+        text-align: center;
+        
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-justify-content: center;
+      justify-content:center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+      
+      .swiper-slide:hover{
+        opacity: .5;
+          border: 5px solid lightgreen;
+      }
+ 
+      
+      
+      
+      
+      
+/* ------- Swiper Animation -------- */      
+      
+      
+      .swiper-slide .title1{
+          animation: displacement 1.5s ease;
+          position: relative;
+      }
+      
+      .swiper-slide .title2{
+          animation: displacement 1s ease;
+          position: relative;
+      }
+      
+      .swiper-slide .title3{
+          animation: displacement .5s ease;
+          position: relative;
+      }
+      
+      .swiper-slide .title4{
+          animation: displacement 2s ease;
+          position: relative;
+      }
+      
+      .swiper-slide .title5{
+          animation: displacement 1.5s ease;
+          position: relative;
+      }
+      
+      .swiper-slide .title6{
+          animation: displacement 1s ease;
+          position: relative;
+      }
+      
+        .swiper-slide .title7{
+          animation: displacement 2.5s ease;
+          position: relative;
+      }
+      
+      .swiper-slide .title8{
+          animation: displacement 2s ease;
+          position: relative;
+      }
+      
+      .swiper-slide .title9{
+          animation: displacement 1.5s ease;
+          position: relative;
+      }
+      
+
+      
+      
+      @keyframes displacement{
+          0%{top:-9999px;}
+          100%{top:0;}
+      }
+      
+      
+
+      
+      
+      
+      
+/* ------- Swiper items bgcolor  -------- */      
+      
+      
+      
+      
+      .card1 {
+          background-color: #333;
+      }
+      
+      
+      .card2{
+          background-color: #444;
+      }
+      
+
+
+      
+
+  </style>
+</head>
+<body>
+    
+    
+  <!-- Swiper -->
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+        
+        
+        
+        <div class="swiper-slide card1" onclick="location.href='/Foods/Soybean_sprouts.html';">
+        <div class="title1">发豆芽</div>
+        </div>
+        
+        
+        
+        
+        <div class="swiper-slide card1" onclick="location.href='/Foods/Cake.html';">
+        <div class="title2">蛋糕</div>
+        </div>
+        
+        
+        <div class="swiper-slide card1" onclick="location.href='/Foods/Shredded_chicken.html';">
+        <div class="title3">凉拌手撕鸡</div>
+        </div>
+        
+        
+        <div class="swiper-slide card1" onclick="location.href='/Foods/Corn_soup.html';">
+        <div class="title4">玉米羹</div>
+        </div>
+        
+        
+        
+        <div class="swiper-slide card1" onclick="location.href='/Foods/Kimchi.html'">
+        <div class="title5">辣白菜</div>
+        </div>
+        
+        
+        
+        <div class="swiper-slide card1" onclick="location.href='/Foods/Alcohols_chicken_wings.html'">
+        <div class="title6">啤酒鸡翅膀</div>
+        </div>
+        
+        
+    
+        <div class="swiper-slide card1" onclick="location.href='/Foods/Vietnam_noodles.html'">
+        <div class="title7">越南粉</div>
+        </div>
+        
+        
+        <div class="swiper-slide card1" onclick="location.href='/Foods/Crispy_pork_belly.html'">
+        <div class="title8">烧肉</div>
+        </div>
+        
+        
+        
+        
+        
+        <div class="swiper-slide card1" onclick="location.href='/Foods/Broil_eggplane.html'">
+        <div class="title9">蒜蓉茄子</div>
+        </div>
+        
+        
+        <div class="swiper-slide card2" onclick="location.href='/Foods/Liuxindan.html'">
+        <div>流心蛋</div>
+        </div>
+        
+    
+        
+        
+        <div class="swiper-slide card2" onclick="location.href='/Foods/Bubbletea.html'">
+        <div>珍珠奶茶</div>
+        </div>
+        
+        <div class="swiper-slide card2" onclick="location.href='/Foods/Xiandan.html'">
+        <div class="title">咸蛋</div>
+        </div>
+        
+        <div class="swiper-slide card2" onclick="location.href='/Foods/Speedup_xiandan.html'">
+        <div class="title">快速咸蛋</div>
+        </div>
+        
+        <div class="swiper-slide card2" onclick="" style="cursor:default">
+        <div class="title"></div>
+        </div>
+        
+        <div class="swiper-slide card2" onclick="" style="cursor:default">
+        <div class="title"></div>
+        </div>
+        
+        <div class="swiper-slide card2" onclick="" style="cursor:default">
+        <div class="title"></div>
+        </div>
+        
+        <div class="swiper-slide card2" onclick="" style="cursor:default">
+        <div class="title"></div>
+        </div>
+        
+        <div class="swiper-slide card2" onclick="" style="cursor:default">
+        <div class="title"></div>
+        </div>
+        
+        
+        
+        
+        
+        <div class="swiper-slide card1" onclick="" style="cursor:default">
+        <div class="title"></div>
+        </div>
+        
+        
+        <div class="swiper-slide card1" onclick="" style="cursor:default">
+        <div class="title"></div>
+        </div>
+        
+        
+        <div class="swiper-slide card1" onclick="" style="cursor:default">
+        <div class="title"></div>
+        </div>
+        
+        
+        <div class="swiper-slide card1" onclick="" style="cursor:default">
+        <div class="title"></div>
+        </div>
+        
+        
+        <div class="swiper-slide card1" onclick="" style="cursor:default">
+        <div class="title"></div>
+        </div>
+        
+        
+        <div class="swiper-slide card1" onclick="" style="cursor:default">
+        <div class="title"></div>
+        </div>
+        
+        
+        <div class="swiper-slide card1" onclick="" style="cursor:default">
+        <div class="title"></div>
+        </div>
+        
+        
+        <div class="swiper-slide card1" onclick="" style="cursor:default">
+        <div class="title"></div>
+        </div>
+        
+        
+        <div class="swiper-slide card1" onclick="" style="cursor:default">
+        <div class="title"></div>
+        </div>
+    </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  <!-- Swiper JS -->
+  <script src="/Javascript/Swiper.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 3,
+      slidesPerColumn: 3,
+      spaceBetween: 1,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+    });
+  </script>
+    
+<script>
+window.alert('Les contenus sont retirés pour l instant');
+</script>
+</body>
+</html>

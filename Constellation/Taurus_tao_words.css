@@ -1,0 +1,1315 @@
+/* line1 */
+
+.line11{
+    animation: line11 3s ease backwards; 
+    position: relative;
+}
+
+@keyframes line11{
+    from    {top: -200px;}
+    to      {top: 0;}
+}
+
+
+
+.line12{
+    animation: line12 2s ease backwards; 
+    position: relative;
+}
+
+@keyframes line12{
+    from    {top: -200px;}
+    to      {top: 0;}
+}
+
+
+
+.line13{
+    animation: line13 1s ease backwards; 
+    position: relative;
+}
+
+@keyframes line13{
+    from    {top: -200px;}
+    to      {top: 0;}
+}
+
+
+
+.line14{
+    animation: line14 2s ease backwards; 
+    position: relative;
+}
+
+@keyframes line14{
+    from    {top: -200px;}
+    to      {top: 0;}
+}
+
+
+
+
+.line15{
+    animation: line15 3s ease backwards; 
+    position: relative;
+}
+
+@keyframes line15{
+    from    {top: -200px;}
+    to      {top: 0;}
+}
+
+
+
+
+
+
+
+
+
+
+/* line2 */
+
+.line21{
+    animation: line21 2.6s ease backwards;
+    position: relative;
+}
+
+@keyframes line21 {
+    from    {left: -200px;}
+    to      {left: 0;}
+} 
+
+
+
+
+.line22{
+    animation: line22 4s ease backwards;
+    position: relative;
+}
+
+@keyframes line22 {
+    from    {top:-200px;}
+    to      {top: 0;}
+} 
+
+
+.line23{
+    animation: line23 4s ease backwards;
+    position: relative;
+}
+
+@keyframes line23 {
+    from    {top:-200px;}
+    to      {top: 0;}
+} 
+
+
+
+
+.line24{
+    animation: line24 4s ease backwards;
+    position: relative;
+}
+
+@keyframes line24 {
+    from    {top:-200px;}
+    to      {top: 0;}
+} 
+
+
+
+.line25{
+    animation: line25 2.6s ease backwards;
+    position: relative;
+}
+
+@keyframes line25 {
+    from    {right:-200px;}
+    to      {right: 0;}
+} 
+
+
+
+
+
+
+
+
+
+
+
+/* line3 */
+
+.line31{
+    animation: line31 2.4s ease backwards;
+    position: relative;
+}
+
+@keyframes line31 {
+    from    {left: -200px;}
+    to      {left: 0;}
+} 
+
+
+.line32{
+    animation: line32 5s ease backwards;
+    position: relative;
+}
+
+@keyframes line32 {
+    from    {left: -200px;}
+    to      {left: 0;}
+} 
+
+
+.line33{
+    animation: line33 5s ease backwards;
+    position: relative;
+}
+
+@keyframes line33 {
+    from    {top:-200px;}
+    to      {top: 0;}
+} 
+
+
+
+
+.line34{
+    animation: line34 5s ease backwards;
+    position: relative;
+}
+
+@keyframes line34 {
+    from    {right:-200px;}
+    to      {right: 0;}
+} 
+
+
+
+.line35{
+    animation: line35 2.4s ease backwards;
+    position: relative;
+}
+
+@keyframes line35 {
+    from    {right:-200px;}
+    to      {right: 0;}
+} 
+
+
+
+
+
+
+
+
+/* line4 */
+
+.line41{
+    animation: line41 2.2s ease backwards;
+    position: relative;
+}
+
+@keyframes line41 {
+    from    {left: -200px;}
+    to      {left: 0;}
+} 
+
+
+
+
+.line42{
+    animation: line42 4s ease backwards;
+    position: relative;
+}
+
+@keyframes line42 {
+    from    {left: -200px;}
+    to      {left: 0;}
+} 
+
+
+.line43{
+    animation: line43 4s ease backwards;
+    position: relative;
+}
+
+@keyframes line43 {
+    from    {bottom:-200px;}
+    to      {bottom: 0;}
+} 
+
+
+
+
+.line44{
+    animation: line44 4s ease backwards;
+    position: relative;
+}
+
+@keyframes line44 {
+    from    {right:-200px;}
+    to      {right: 0;}
+} 
+
+
+
+.line45{
+    animation: line45 2.2s ease backwards;
+    position: relative;
+}
+
+@keyframes line45 {
+    from    {right:-200px;}
+    to      {right: 0;}
+} 
+
+
+
+
+
+
+
+
+
+
+
+/* line5 */
+
+.line51{
+    animation: line51 2s ease backwards;
+    position: relative;
+}
+
+@keyframes line51 {
+    from    {left: -200px;}
+    to      {left: 0;}
+} 
+
+
+
+
+.line52{
+    animation: line52 3s ease backwards;
+    position: relative;
+}
+
+@keyframes line52 {
+    from    {left: -200px;}
+    to      {left: 0;}
+} 
+
+
+.line53{
+    animation: line53 3s ease backwards;
+    position: relative;
+}
+
+@keyframes line53 {
+    from    {top: -200px;}
+    to      {top: 0;}
+} 
+
+
+
+
+.line54{
+    animation: line54 3s ease backwards;
+    position: relative;
+}
+
+@keyframes line54 {
+    from    {right:-200px;}
+    to      {right: 0;}
+} 
+
+
+
+.line55{
+    animation: line55 2s ease backwards;
+    position: relative;
+}
+
+@keyframes line55 {
+    from    {right:-200px;}
+    to      {right: 0;}
+} 
+
+
+
+
+
+
+
+
+
+
+
+/* line6 */
+
+.line61{
+    animation: line61 1.8s ease backwards;
+    position: relative;
+}
+
+@keyframes line61 {
+    from    {left: -200px;}
+    to      {left: 0;}
+} 
+
+
+
+
+.line62{
+    animation: line62 2s ease backwards;
+    position: relative;
+}
+
+@keyframes line62 {
+    from    {left: -200px;}
+    to      {left: 0;}
+} 
+
+
+.line63{
+    animation: line63 2s ease backwards;
+    position: relative;
+}
+
+@keyframes line63 {
+    from    {opacity: 0;}
+    to      {opacity: 1;}
+} 
+
+
+
+
+.line64{
+    animation: line64 2s ease backwards;
+    position: relative;
+}
+
+@keyframes line64 {
+    from    {right:-200px;}
+    to      {right: 0;}
+} 
+
+
+
+.line65{
+    animation: line65 1.8s ease backwards;
+    position: relative;
+}
+
+@keyframes line65 {
+    from    {right:-200px;}
+    to      {right: 0;}
+} 
+
+
+
+
+
+
+
+
+
+
+ /* line7 */
+
+.line71{
+    animation: line71 1.6s ease backwards;
+    position: relative;
+}
+
+@keyframes line71 {
+    from    {left: -200px;}
+    to      {left: 0;}
+} 
+
+
+
+
+.line72{
+    animation: line72 6s ease backwards;
+    position: relative;
+}
+
+@keyframes line72 {
+    from    {left: -200px;}
+    to      {left: 0;}
+} 
+
+
+.line73{
+    animation: line73 6s ease backwards;
+    position: relative;
+}
+
+@keyframes line73 {
+    from    {opacity:0}
+    to      {opacity:1}
+} 
+
+
+
+
+.line74{
+    animation: line74 6s ease backwards;
+    position: relative;
+}
+
+@keyframes line74 {
+    from    {right:-200px;}
+    to      {right: 0;}
+} 
+
+
+
+.line75{
+    animation: line75 1.6s ease backwards;
+    position: relative;
+}
+
+@keyframes line75 {
+    from    {right:-200px;}
+    to      {right: 0;}
+} 
+
+
+
+
+
+
+/* line8 */
+
+.line81{
+    animation: line81 1.4s ease backwards;
+    position: relative;
+}
+
+@keyframes line81 {
+    from    {left: -200px;}
+    to      {left: 0;}
+} 
+
+
+
+
+.line82{
+    animation: line82 2s ease backwards;
+    position: relative;
+}
+
+@keyframes line82 {
+    from    {opacity:0}
+    to      {opacity:1}
+} 
+
+
+.line83{
+    animation: line83 2s ease backwards;
+    position: relative;
+}
+
+@keyframes line83 {
+    from    {opacity:0}
+    to      {opacity:1}
+} 
+
+
+
+
+.line84{
+    animation: line84 2s ease backwards;
+    position: relative;
+}
+
+@keyframes line84 {
+    from    {opacity:0}
+    to      {opacity:1}
+} 
+
+
+
+.line85{
+    animation: line85 1.4s ease backwards;
+    position: relative;
+}
+
+@keyframes line85 {
+    from    {right:-200px;}
+    to      {right: 0;}
+} 
+
+
+
+
+
+/* line9 */
+
+.line91{
+    animation: line91 1.2s ease backwards;
+    position: relative;
+}
+
+@keyframes line91 {
+    from    {left: -200px;}
+    to      {left: 0;}
+} 
+
+
+
+
+.line92{
+    animation: line92 2s ease backwards;
+    position: relative;
+}
+
+@keyframes line92 {
+    from    {opacity:0}
+    to      {opacity:1}
+} 
+
+
+.line93{
+    animation: line93 1s ease backwards;
+    position: relative;
+}
+
+@keyframes line93 {
+    from    {top: -200px}
+    to      {top: 0}
+} 
+
+
+
+
+.line94{
+    animation: line94 2s ease backwards;
+    position: relative;
+}
+
+@keyframes line94 {
+    from    {opacity:0}
+    to      {opacity:1}
+} 
+
+
+
+.line95{
+    animation: line95 1.2s ease backwards;
+    position: relative;
+}
+
+@keyframes line95 {
+    from    {right:-200px;}
+    to      {right: 0;}
+} 
+
+
+
+
+
+/* line10 */
+
+.line101{
+    animation: line101 1s ease backwards;
+    position: relative;
+}
+
+@keyframes line101 {
+    from    {left: -200px;}
+    to      {left: 0;}
+} 
+
+
+
+
+.line102{
+    animation: line102 1s ease backwards;
+    position: relative;
+}
+
+@keyframes line102 {
+    from    {left: -200px;}
+    to      {left: 0;}
+} 
+
+
+.line103{
+    animation: line103 1s ease backwards;
+    position: relative;
+}
+
+@keyframes line103 {
+    from    {opacity: 0}
+    to      {opacity:1}
+} 
+
+
+
+
+.line104{
+    animation: line104 1s ease backwards;
+    position: relative;
+}
+
+@keyframes line104 {
+    from    {right: -200px;}
+    to      {right: 0;}
+} 
+
+
+
+.line105{
+    animation: line105 1s ease backwards;
+    position: relative;
+}
+
+@keyframes line105 {
+    from    {right:-200px;}
+    to      {right: 0;}
+} 
+
+
+
+/* line11 */
+
+.line111{
+    animation: line111 1s ease backwards;
+    position: relative;
+}
+
+@keyframes line111 {
+    from    {left: -200px;}
+    to      {left: 0;}
+} 
+
+
+
+
+.line112{
+    animation: line112 2s ease backwards;
+    position: relative;
+}
+
+@keyframes line112 {
+    from    {opacity:0}
+    to      {opacity:1}
+} 
+
+
+.line113{
+    animation: line113 1s ease backwards;
+    position: relative;
+}
+
+@keyframes line113 {
+    from    {bottom:-200px;}
+    to      {bottom: 0;}
+} 
+
+
+
+
+.line114{
+    animation: line114 1s ease backwards;
+    position: relative;
+}
+
+@keyframes line114 {
+    from    {bottom:-200px;}
+    to      {bottom: 0;}
+} 
+
+
+
+.line115{
+    animation: line115 1s ease backwards;
+    position: relative;
+}
+
+@keyframes line115 {
+    from    {right:-200px;}
+    to      {right: 0;}
+} 
+
+
+
+
+
+
+/* line12 */
+
+.line121{
+    animation: line121 1.2s ease backwards;
+    position: relative;
+}
+
+@keyframes line121 {
+    from    {left: -200px;}
+    to      {left: 0;}
+} 
+
+
+
+
+.line122{
+    animation: line122 2s ease backwards;
+    position: relative;
+}
+
+@keyframes line122 {
+    from    {opacity:0}
+    to      {opacity:1}
+} 
+
+
+.line123{
+    animation: line123 2s ease backwards;
+    position: relative;
+}
+
+@keyframes line123 {
+    from    {opacity:0}
+    to      {opacity:1}
+} 
+
+
+
+
+.line124{
+    animation: line124 2s ease backwards;
+    position: relative;
+}
+
+@keyframes line124 {
+    from    {opacity:0}
+    to      {opacity:1}
+} 
+
+
+
+.line125{
+    animation: line125 1.2s ease backwards;
+    position: relative;
+}
+
+@keyframes line125 {
+    from    {right:-200px;}
+    to      {right: 0;}
+} 
+
+
+
+
+
+
+/* line13 */
+
+.line131{
+    animation: line131 1.4s ease backwards;
+    position: relative;
+}
+
+@keyframes line131 {
+    from    {left: -200px;}
+    to      {left: 0;}
+} 
+
+
+
+
+.line132{
+    animation: line132 6s ease backwards;
+    position: relative;
+}
+
+@keyframes line132 {
+    from    {left: -200px;}
+    to      {left: 0;}
+} 
+
+
+.line133{
+    animation: line133 6s ease backwards;
+    position: relative;
+}
+
+@keyframes line133 {
+    from    {opacity: 0;}
+    to      {opacity:1;}
+} 
+
+
+
+
+.line134{
+    animation: line134 6s ease backwards;
+    position: relative;
+}
+
+@keyframes line134 {
+    from    {right:-200px;}
+    to      {right: 0;}
+} 
+
+
+
+.line135{
+    animation: line135 1.4s ease backwards;
+    position: relative;
+}
+
+@keyframes line135 {
+    from    {right:-200px;}
+    to      {right: 0;}
+} 
+
+
+
+
+
+/* line14 */
+
+.line141{
+    animation: line141 1.6s ease backwards;
+    position: relative;
+}
+
+@keyframes line141 {
+    from    {left: -200px;}
+    to      {left: 0;}
+} 
+
+
+
+
+.line142{
+    animation: line142 2s ease backwards;
+    position: relative;
+}
+
+@keyframes line142 {
+    from    {left: -200px;}
+    to      {left: 0;}
+} 
+
+
+.line143{
+    animation: line143 2s ease backwards;
+    position: relative;
+}
+
+@keyframes line143 {
+    from    {opacity: 0;}
+    to      {opacity: 1;}
+} 
+
+
+
+
+.line144{
+    animation: line144 2s ease backwards;
+    position: relative;
+}
+
+@keyframes line144 {
+    from    {right:-200px;}
+    to      {right: 0;}
+} 
+
+
+
+.line145{
+    animation: line145 1.6s ease backwards;
+    position: relative;
+}
+
+@keyframes line145 {
+    from    {right:-200px;}
+    to      {right: 0;}
+} 
+
+
+
+
+
+/* line15 */
+
+.line151{
+    animation: line151 1.8s ease backwards;
+    position: relative;
+}
+
+@keyframes line151 {
+    from    {left: -200px;}
+    to      {left: 0;}
+} 
+
+
+
+
+.line152{
+    animation: line152 3s ease backwards;
+    position: relative;
+}
+
+@keyframes line152 {
+    from    {left: -200px;}
+    to      {left: 0;}
+} 
+
+
+.line153{
+    animation: line153 3s ease backwards;
+    position: relative;
+}
+
+@keyframes line153 {
+    from    {bottom: -200px;}
+    to      {bottom: 0;}
+} 
+
+
+
+
+.line154{
+    animation: line154 3s ease backwards;
+    position: relative;
+}
+
+@keyframes line154 {
+    from    {right:-200px;}
+    to      {right: 0;}
+} 
+
+
+
+.line155{
+    animation: line155 1.8s ease backwards;
+    position: relative;
+}
+
+@keyframes line155 {
+    from    {right:-200px;}
+    to      {right: 0;}
+} 
+
+
+
+
+
+/* line16 */
+
+.line161{
+    animation: line161 2s ease backwards;
+    position: relative;
+}
+
+@keyframes line161 {
+    from    {left: -200px;}
+    to      {left: 0;}
+} 
+
+
+
+
+.line162{
+    animation: line162 4s ease backwards;
+    position: relative;
+}
+
+@keyframes line162 {
+    from    {left: -200px;}
+    to      {left: 0;}
+} 
+
+
+.line163{
+    animation: line163 4s ease backwards;
+    position: relative;
+}
+
+@keyframes line163 {
+    from    {top:-200px;}
+    to      {top: 0;}
+} 
+
+
+
+
+.line164{
+    animation: line164 4s ease backwards;
+    position: relative;
+}
+
+@keyframes line164 {
+    from    {right:-200px;}
+    to      {right: 0;}
+} 
+
+
+
+.line165{
+    animation: line165 2s ease backwards;
+    position: relative;
+}
+
+@keyframes line165 {
+    from    {right:-200px;}
+    to      {right: 0;}
+} 
+
+
+
+
+/* line17 */
+
+.line171{
+    animation: line171 2.2s ease backwards;
+    position: relative;
+}
+
+@keyframes line171 {
+    from    {left: -200px;}
+    to      {left: 0;}
+} 
+
+
+
+
+.line172{
+    animation: line172 4s ease backwards;
+    position: relative;
+}
+
+@keyframes line172 {
+    from    {left: -200px;}
+    to      {left: 0;}
+} 
+
+
+.line173{
+    animation: line173 4s ease backwards;
+    position: relative;
+}
+
+@keyframes line173 {
+    from    {bottom: -200px;}
+    to      {bottom: 0;}
+} 
+
+
+
+
+.line174{
+    animation: line174 4s ease backwards;
+    position: relative;
+}
+
+@keyframes line174 {
+    from    {right:-200px;}
+    to      {right: 0;}
+} 
+
+
+
+.line175{
+    animation: line175 2.2s ease backwards;
+    position: relative;
+}
+
+@keyframes line175 {
+    from    {right:-200px;}
+    to      {right: 0;}
+} 
+
+
+
+
+/* line18 */
+
+.line181{
+    animation: line181 2.4s ease backwards;
+    position: relative;
+}
+
+@keyframes line181 {
+    from    {left: -200px;}
+    to      {left: 0;}
+} 
+
+
+
+
+.line182{
+    animation: line182 5s ease backwards;
+    position: relative;
+}
+
+@keyframes line182 {
+    from    {left: -200px;}
+    to      {left: 0;}
+} 
+
+
+.line183{
+    animation: line183 5s ease backwards;
+    position: relative;
+}
+
+@keyframes line183 {
+    from    {bottom: -200px;}
+    to      {bottom: 0;}
+} 
+
+
+
+
+.line184{
+    animation: line184 5s ease backwards;
+    position: relative;
+}
+
+@keyframes line184 {
+    from    {right:-200px;}
+    to      {right: 0;}
+} 
+
+
+
+.line185{
+    animation: line185 2.4s ease backwards;
+    position: relative;
+}
+
+@keyframes line185 {
+    from    {right:-200px;}
+    to      {right: 0;}
+} 
+
+
+
+
+
+
+/* line19 */
+
+.line191{
+    animation: line191 2.6s ease backwards;
+    position: relative;
+}
+
+@keyframes line191 {
+    from    {left: -200px;}
+    to      {left: 0;}
+} 
+
+
+
+
+.line192{
+    animation: line192 4s ease backwards;
+    position: relative;
+}
+
+@keyframes line192 {
+    from    {bottom:-200px;}
+    to      {bottom: 0;}
+} 
+
+
+.line193{
+    animation: line193 4s ease backwards;
+    position: relative;
+}
+
+@keyframes line193 {
+    from    {bottom:-200px;}
+    to      {bottom: 0;}
+} 
+
+
+
+
+.line194{
+    animation: line194 4s ease backwards;
+    position: relative;
+}
+
+@keyframes line194 {
+    from    {bottom:-200px;}
+    to      {bottom: 0;}
+} 
+
+
+
+.line195{
+    animation: line195 2.6s ease backwards;
+    position: relative;
+}
+
+@keyframes line195 {
+    from    {right:-200px;}
+    to      {right: 0;}
+} 
+
+
+
+
+
+/* line20 */
+
+.line201{
+    animation: line201 3s ease backwards;
+    position: relative;
+}
+
+@keyframes line201 {
+    from    {bottom:-200px;}
+    to      {bottom: 0;}
+} 
+
+
+
+
+.line202{
+    animation: line202 2s ease backwards;
+    position: relative;
+}
+
+@keyframes line202 {
+    from    {bottom:-200px;}
+    to      {bottom: 0;}
+} 
+
+
+.line203{
+    animation: line203 2s ease backwards;
+    position: relative;
+}
+
+@keyframes line203 {
+    from    {bottom:-200px;}
+    to      {bottom: 0;}
+} 
+
+
+
+
+.line204{
+    animation: line204 3s ease backwards;
+    position: relative;
+}
+
+@keyframes line204 {
+    from    {bottom:-200px;}
+    to      {bottom: 0;}
+} 
+
+
+

@@ -1,0 +1,146 @@
+
+
+/* Delete ads from webhost */    
+    
+    a { display: none; }
+
+
+/* ------- Swiper items bgcolor  -------- */      
+      
+      
+      .page{
+          background-image: radial-gradient(ellipse, #333 20%, #eee 75%, #333 90%);
+          cursor: default;
+          font-size: 18px;
+          text-shadow: 2px 2px 5px black;
+        color:white;
+      }
+      
+      .page1{
+          background-color: #333;
+      }
+
+      
+      .page2{
+          background-color: #222;
+      }
+
+      
+      .home{
+          box-shadow: 2px 2px 5px black, -1px -1px 6px white;;
+          border-radius: 10px;
+          padding: 10px;
+          animation: anime 2s;
+      }
+      
+      @keyframes anime{
+          0%{opacity: .1;}
+          100%{opacity:1;}
+      }
+      
+      /* ------ life_nav ------ */
+      .life{
+          padding:10px;
+          box-shadow: 2px 2px 5px black, -1px -1px 1px, 9px 2px 5px red;
+          border-radius: 20px;
+      }
+      
+      
+      .page1:hover .life{
+          position: relative;
+          left: 10px;
+          box-shadow: 2px 2px 5px black, -1px -1px 1px;
+      }
+
+        .page2:hover .life{
+          position: relative;
+          left: 10px;
+          box-shadow: 2px 2px 5px black, -1px -1px 1px;
+      }
+      
+      
+      
+      /* ------ virtual_nav ------ */
+      .virtual{
+          padding:10px;
+          box-shadow: 2px 2px 5px black, -1px -1px 1px, 9px 2px 5px gray;
+          border-radius: 20px;
+      }
+      
+      
+      .page1:hover .virtual{
+          position: relative;
+          left: 10px;
+          box-shadow: 2px 2px 5px black, -1px -1px 1px;
+      }
+
+      .page2:hover .virtual{
+          position: relative;
+          left: 10px;
+          box-shadow: 2px 2px 5px black, -1px -1px 1px;
+      }
+      
+      
+      
+      /* ------ foods_nav ------ */
+      .foods{
+          padding:10px;
+          box-shadow: 2px 2px 5px black, -1px -1px 1px, 9px 2px 5px green;
+          border-radius: 20px;
+      }
+      
+      
+      .page1:hover .foods{
+          position: relative;
+          left: 10px;
+          box-shadow: 2px 2px 5px black, -1px -1px 1px;
+      }
+
+      .page2:hover .foods{
+          position: relative;
+          left: 10px;
+          box-shadow: 2px 2px 5px black, -1px -1px 1px;
+      }
+      
+      
+      
+      /* ------ items_nav ------ */
+      .items{
+          padding:10px;
+          box-shadow: 2px 2px 5px black, -1px -1px 1px, 9px 2px 5px orange;
+          border-radius: 20px;
+      }
+      
+      
+      .page1:hover .items{
+          position: relative;
+          left: 10px;
+          box-shadow: 2px 2px 5px black, -1px -1px 1px;
+      }
+
+      .page2:hover .items{
+          position: relative;
+          left: 10px;
+          box-shadow: 2px 2px 5px black, -1px -1px 1px;
+      }
+      
+      
+      /* ------ selfneed_nav ------ */
+      .selfneed{
+          padding:10px;
+          box-shadow: 2px 2px 5px black, -1px -1px 1px, 9px 2px 5px blue;
+          border-radius: 20px;
+      }
+      
+      
+      .page1:hover .selfneed{
+          position: relative;
+          left: 10px;
+          box-shadow: 2px 2px 5px black, -1px -1px 1px;
+      }
+
+      .page2:hover .selfneed{
+          position: relative;
+          left: 10px;
+          box-shadow: 2px 2px 5px black, -1px -1px 1px;
+      }

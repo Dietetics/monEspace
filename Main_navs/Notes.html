@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Plans</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="/Images/Logo.png" sizes="192x192">
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="/Css_files/Swiper.min.css">
+  <style>
+      
+      * {
+        font-family: serif;
+        box-sizing: border-box;
+        margin:0;
+        padding:0;
+      }
+      
+    /* Delete ads from webhost */    
+    
+    a { display: none; }
+
+      
+    body {
+        height: 90vh; 
+        overflow: hidden;   
+        background-color: black;
+        background-image:url('/Bg_images/bg2.png');
+        background-size: cover;
+        color: white;
+      }
+      
+      @media screen and (min-width:500px){
+          body{
+              height: 100vh;
+          }
+      }  
+      
+      
+    
+      
+/* ----- Swiper ------ */      
+
+    .swiper-container {
+      width: 100%;
+      height: 100%;
+    }
+      
+      
+
+
+
+
+
+    
+/* -------- Main content pages --------- */
+
+      /* -------- 日常页 --------- */
+
+      .main-content1{
+          width: 100%;
+          height: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+      }
+      
+      .main-content1 label{
+          margin: 10px;
+          font-size: 30px;
+          padding:2px;
+          display: block;
+      }
+      
+      /* -------- 锻炼页 --------- */
+      
+      .main-content2{
+          width: 100%;
+          height: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+      }
+      
+      .main-content2 label{
+          margin: 10px;
+          font-size: 30px;
+          padding:2px;
+          display: block;
+      }
+      
+      
+      /* -------- 两周计划 --------- */
+      
+      
+      .main-content3{
+          width: 100%;
+          height: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+      }
+      
+      .main-content3 label{
+          margin: 10px;
+          font-size: 30px;
+          padding:2px;
+          display: block;
+      }
+      
+      
+      /* -------- 目标页 --------- */
+      .main-content4{
+          width: 100%;
+          height: 100%;
+          padding-top: 28px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 25px;
+      }
+      
+      
+      
+      
+      .achieve{
+          animation: animate 8s 1s ease infinite;
+          box-shadow: 5px 5px 7px red,
+                    -1px -1px 1px red;
+      }
+      
+     
+      @keyframes animate{
+          0%{color: white; }
+          100%{ background-color: ghostwhite;
+          color: black;
+          text-decoration: line-through;}
+      }
+      
+      
+      
+      
+      /* -------- 给未来的自己 --------- */
+      .main-content5{
+          width: 100%;
+          height: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding: 30px;
+      }
+      
+      .main-content5 label{
+          margin: 10px;
+          font-size: 30px;
+          padding:2px;
+          display: block;
+      }
+      
+      
+      
+      /* -------- 给未来的自己 --------- */
+      .main-content6{
+          width: 100%;
+          height: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding: 30px;
+      }
+      
+      .main-content6 label{
+          margin: 10px;
+          font-size: 30px;
+          padding:2px;
+          display: block;
+      }
+      
+  </style>
+</head>
+<body>
+    
+    
+    
+   
+
+    
+    
+    
+
+    
+    
+  <!-- Swiper -->
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+        
+        
+    <div id="whole-page1" class="swiper-slide">
+          <div class="main-content1">
+              
+            
+              
+          </div>
+        </div>
+        
+   
+        
+        <div id="whole-page2" class="swiper-slide">
+          <div class="main-content2">
+              
+           
+              
+          </div>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <div id="whole-page3" class="swiper-slide">
+          <div class="main-content3">
+              
+           
+              
+          </div>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      
+        
+        
+
+   
+        
+        
+        
+        
+      <div id="whole-page4" class="swiper-slide">
+          <div class="main-content4">
+              
+              
+          </div>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <div id="whole-page5" class="swiper-slide">
+          <div class="main-content5">
+              
+          </div>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        <div id="whole-page6" class="swiper-slide">
+          <div class="main-content6">
+              
+          </div>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+    </div>
+    
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="/Javascript/Swiper.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      pagination: {
+        el: '.swiper-pagination',
+        dynamicBullets: true,
+      },
+    });
+  </script>
+    
+    
+
+</body>
+</html>

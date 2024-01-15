@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Games</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="/Images/Logo.png" sizes="192x192">
+<style>
+    * {
+        font-family: serif;
+        box-sizing: border-box;
+        margin:0;
+        padding:0;
+      }
+      
+    /* Delete ads from webhost */    
+    
+    a { display: none; }
+
+    body {
+        height: 90vh; 
+        overflow: hidden;   
+        background-image:url('/Bg_images/bg1.png');
+        background-size: cover;
+        color:white;
+      }
+      
+      @media screen and (min-width:550px){
+          body{
+              height: 100vh;
+          }
+      }  
+      
+    
+    
+    
+
+    
+/* ----------------------- Main navs -------------------- */
+    
+    button.homepage-nav-items{
+        background-color:black;
+    }
+    
+    button.homepage-nav-items:nth-child(even){
+        background-color: #333333;
+    }
+    
+    button.homepage-nav-items:hover{
+        color: white;
+        background-color:#aaa;
+    }
+
+
+    
+    /* -------- 电脑浏览器最小化 -------- */
+@media screen and (max-width: 550px) and (min-width: 400px){
+    .homepage-nav{
+        width:100%;
+        position: fixed;
+        bottom: 0;
+        z-index: 99999999;
+    }
+    
+    .homepage-nav .homepage-nav-items{
+        border-radius:30px;
+        box-shadow: -1px -1px 6px white, 2px 2px 2px red;
+        border:none;
+        width:19%;
+        color:gray;
+        font-size: 25px;
+        padding:20px 0 20px 0;
+        cursor: pointer;
+    }
+    }
+
+    
+    
+    
+    
+    /* -------- 电脑主nav -------- */
+@media screen and (min-width: 550px){
+    .homepage-nav{
+        width:20%;
+        height: 100vh;
+        display:block;
+        position: fixed;
+        left: 0;
+        top:0;
+    }
+    
+    
+ 
+    .homepage-nav button{
+        display:block;
+        width:100%;
+        height: 20%;
+        cursor: pointer;
+        border-radius: 30px;
+        box-shadow: 10px 10px 5px #888888;
+    }
+    
+    
+    .homepage-nav button{
+        color:white;
+        font-size: 20px;
+        text-decoration: none;
+    }
+    
+    .all-contents{
+        margin-left:20%;
+        }
+    }
+
+
+
+
+
+    /* -------- 手机版 -------- */
+
+@media screen and (max-width:400px){
+    .homepage-nav{
+        width:100%;
+        position: fixed;
+        bottom: 0;
+        z-index: 99999999;
+    }
+    
+    .homepage-nav .homepage-nav-items{
+        border-radius:30px;
+        box-shadow: -1px -1px 6px white, 2px 2px 2px red;
+        border:none;
+        width:19%;
+        color:gray;
+        font-size: 25px;
+        padding:20px;
+        cursor: pointer;
+    }
+    }
+
+
+    
+    /* ------- The content -------- */
+    
+    
+    .all-contents .cardofheader{
+        margin: 15px 25px;
+        width: 80%;
+        text-align: center;
+        padding: 30px;
+        font-size: 50px;
+        text-shadow: 2px 2px 5px;
+    }
+    
+    .all-contents .cardofdesc{
+        margin: 15px;
+        font-size: 1.2em;
+        z-index: 999;
+    }
+    
+
+    
+    @media screen and (min-width:550px){
+        .all-contents .cardofheader{
+        width: 100%;       
+    }
+        
+        .all-contents .cardofdesc{
+        margin: 15px 100px;
+       }
+    }
+    
+    
+    
+    /*-------- openbtn -----------*/
+    
+
+    
+    .button{
+        display: inline;
+        position: absolute;
+        top: 0;
+        right:0 ;
+        margin: 30px;
+        line-height: 80px;
+        
+        
+        
+    }
+    
+    .openbtn{
+        z-index: 1111;
+        border-radius: 50%;
+        cursor: pointer;
+        width: 80px;
+        height: 80px;
+        border: none;
+        text-align: center;
+        font-size: 30px;
+        background-color:transparent;
+        box-shadow: 5px 5px 10px gray;
+            text-shadow: 2px 2px 5px gray;
+        color:deeppink;
+    }
+    
+    .openbtn:hover{
+        box-shadow: none;
+    }
+    
+    .border{
+        z-index: -111;
+        width: 100px;
+        height:100px;
+        position: absolute;
+        top: -10px;
+        left: -10px;
+        border-radius: 50%;
+        background: linear-gradient(#14ffe9, #ffeb3b, #ff00e0);
+ animation: animate 2.5s linear infinite;
+    z-index: -1;
+            
+}
+@keyframes animate
+{
+ 0%
+ {
+  transform: rotate(0deg);
+ }
+ 100%
+ {
+  transform: rotate(360deg);
+ }
+}
+        
+ .border span
+{
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ border-radius: 50%;
+ background: linear-gradient(#14ffe9, #ffeb3b, #ff00e0);
+}
+
+
+.border span:nth-child(1)
+{
+ filter: blur(5px);
+}
+.border span:nth-child(2)
+{
+ filter: blur(10px);
+}
+.border span:nth-child(3)
+{
+ filter: blur(25px);
+}
+.border span:nth-child(4)
+{
+ filter: blur(50px);
+}
+
+    
+    
+    
+        
+
+
+ 
+
+</style>
+</head>
+<body>
+
+    
+    
+    
+        
+<!--   The main Navigation    -->    
+ 
+    <div class="homepage-nav">
+        
+        <button class="homepage-nav-items" type="button" onclick="location.href='/Main_navs/For_future_me.html';">
+            📚</button>
+        
+        <button class="homepage-nav-items" type="button" onclick="location.href='/Main_navs/Foods.html';">
+            🍙</button>
+        
+        <button class="homepage-nav-items" type="button" onclick="location.href='/index.html';">
+            🏠</button>
+        
+        <button class="homepage-nav-items" type="button" onclick="location.href='/Main_navs/Minigames.html';">
+            🎮</button>
+        
+        <button class="homepage-nav-items" type="button" onclick="location.href='/Main_navs/Notes.html';">
+            📃</button>
+        </div>
+
+    
+    
+    <div class="all-contents">
+    
+    
+    <div class="cardofheader">Gaming</div>
+        
+        
+        
+        
+    <div class="button">
+        <div class="openbtn" onclick="location.href='/Menus/Minigames_menu.html';">🎮</div>
+        <div class="border">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        </div>
+        
+        </div>
+        
+        
+        
+    
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    <div class="cardofdesc">
+        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        
+    
+    </div>
+    
+    
+    
+
+        
+    
+    
+    
+
+    
+    
+</body>
+</html>

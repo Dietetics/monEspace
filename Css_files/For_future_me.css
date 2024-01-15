@@ -1,0 +1,299 @@
+/* ---- General ---- */
+    *{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+} 
+    
+    
+    body{
+    background-color: black;
+    background-image: url('/Bg_images/bg3.png');
+    background-attachment: fixed;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+    /* Delete ads from webhost */    
+    
+    a { display: none; }
+    
+    .mySidenav a { display: block;}
+
+    #main a { display: block; text-align: center;}
+    /*---- 删除 scrollbar -----*/
+::-webkit-scrollbar{
+    width: 0;
+    height:0;
+}
+
+#scrollpath{
+    position: fixed;
+    top:0;
+    right:0;
+    width:2px;
+    height:100%;
+    background: rgb(255,255,255,0.1);
+}
+#progressbar{
+    position: fixed;
+    top:0;
+    right:0;
+    width:2px;
+height:100%;
+        background: linear-gradient(to top, #008aff, #00ffe7);
+    animation: animate 5s linear infinite;
+    border-radius: 50%;
+}
+
+@keyframes animate{
+    0%,100%{filter: hue-rotate(0deg);}
+    50%{filter: hue-rotate(360deg);}
+}
+    
+    
+/* ---- Main screen ---- */
+    #main{
+        width:100%;
+        height: 100%;
+        color: white;
+        padding: 30px;
+        transition: 1s;
+    }
+    
+    
+    
+    #mySidenav{
+        width:0px;
+        height:100%;
+        background-color: #333;
+        position: fixed;
+        transition: all 1s;
+        color: white;
+        overflow-y: scroll;
+        z-index: 2;
+    }
+
+    .mySidenav::-webkit-scrollbar{
+        width: 0;
+        height: 0;
+    }
+
+    
+    
+    .openlinks{
+        position: fixed;
+        top:40%;
+        font-size: 60px;
+        background-color: #333;
+        line-height: 2;
+        padding-bottom: 10px;
+        padding-right: 5px;
+        padding-left: 5px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        transition: left 1s;
+        left: 0;
+        opacity: .7;
+        cursor: pointer;
+    }
+    
+    .openlinks:hover{
+        opacity: 1;
+    }
+    
+    
+    
+    
+    
+/* ---- Main Contents ---- */
+/* Header */
+    #title{
+        height:200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        opacity: 1;
+        margin-bottom:500px;
+        font-size: 26px;
+        margin-top:50px;
+    }
+    
+    @media screen and (max-width:400px){
+        #title{ font-size: 18px;}
+    }
+    
+    
+/* General Screen Settings */
+    .cards{
+        left:20%;
+        position:relative;
+        width: 80%;
+        margin-bottom: 300px;
+    }
+ 
+
+    #main:before{
+        content:'';
+        width:3px;
+        position: absolute;
+        left: 20%;
+        background: rgba(255, 255, 255, 0.1);
+        height: 100%;
+        padding-bottom: 70000px;
+    }
+    
+    .cards:before {
+        content: attr(data-text);
+        position: absolute;
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 13px;
+        border-right: 3px solid rgba(255, 255, 255, .3);
+        top: 10%;
+        left: -107px;
+}
+
+
+@media screen and (max-width: 400px){
+    .cards:before {
+        font-size: 10px;
+        left: -92px;
+}
+}
+    
+
+/* Deep Settings */
+
+    
+
+
+    .cards img{
+        width:50%;
+        box-shadow: 2px 2px 5px black, -1px -1px 6px white;
+        float: left;
+        margin-right: 20px;
+        opacity: .4;
+        transition: opacity 1.5s;
+        display: block;
+    }
+
+@media screen and (min-width:600px){
+    .cards img{
+        width:30%;
+        box-shadow: 2px 2px 5px black, -1px -1px 6px white;
+        float: left;
+        margin-right: 20px;
+        opacity: .4;
+        transition: opacity 1.5s;
+        max-height: 400px;
+        display: block;
+}
+}
+    
+    .desc{
+        box-shadow: 3px 3px 6px red;
+        padding: 10px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        opacity: .4;
+    }
+
+@media screen and (min-width: 400px){
+    .desc{
+        box-shadow: 3px 3px 6px red;
+        padding: 10px;
+        padding-bottom: 200px;
+        border-radius: 10px;
+        opacity: .4;
+    }
+}
+    
+    .cards:hover .desc{
+        opacity:1;
+    }
+
+    .cards:hover img{
+        opacity:1;
+    }
+
+    .cards img:hover{
+        border: 5px solid black;
+    }
+
+
+
+    .imgpx{ border-radius:15px;}
+    .img50{ border-radius:50%; }
+
+
+
+
+
+    .desc a{
+        text-decoration: none;
+        background-color: yellow;
+        color: black;
+        border-radius: 10px;
+        padding:2px;
+        opacity: .8;
+    }
+    
+    .cards a:hover{
+        opacity: 1;
+        border: 3px solid black;
+    }
+
+
+/* ---- Sidenav Settings ---- */
+    .mySidenav h2{
+        margin-top: 20px;
+        text-align: center;
+        cursor: pointer;
+        opacity:.6;
+    }
+    
+
+    .mySidenav a{
+        text-align: center;
+    }
+    
+    .mySidenav h3{
+        text-decoration-line: overline;
+        text-align: center;
+        cursor: pointer;
+        opacity:.7;
+    }
+    
+    .mySidenav h3:hover{
+        opacity:1;
+    }
+    
+    
+    
+    .mySidenav a{
+        color: red;
+        text-decoration: none;
+        display: block;
+        margin-left: 5px;
+        padding: 10px;
+        text-align: center;
+    }
+    
+    .mySidenav a:visited{
+        color: red;
+    }
+    
+    .mySidenav a:hover{
+        background-color: black;
+        color: white;
+        font-weight: 900;
+        border-radius: 10px;
+    }
+    
+    
+    
+    
+    #Schedule2018, #Schedule2019,#Schedule2020,#Schedule202003,#Schedule202004,#Schedule202005,#Schedule202006,#Schedule202007{
+        display: none;
+    }
